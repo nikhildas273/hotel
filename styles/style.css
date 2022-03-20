@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* main styling */
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Nav bar styling */
+
+#nav-bar {
+  background: #333;
+  color: #fff;
+  overflow: auto;
+}
+
+#nav-bar a {
+  color: #fff;
+}
+
+#nav-bar h1 {
+  margin-top: 20px;
+  float: left;
+}
+
+#nav-bar ul {
+  float: right;
+}
+
+#nav-bar ul li {
+  float: left;
+}
+
+#nav-bar ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+
+#nav-bar ul li a:hover,
+#nav-bar ul li a.current {
+  background: #444;
+  color: #f7c08a;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.primary-text {
+  color: #f7c08a;
+}
+
+.lead-text {
+  font-size: 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+
+.showcase {
+  background: url("../images/showcase.jpg") no-repeat center center/cover;
+  height: 600px;
+}
+
+.showcase .container {
+  max-width: 960px;
+}
+.showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.7rem;
+}
+
+.showcase p {
+  padding-bottom: 50px;
+  line-height: 1.7rem;
+}
+
+#info-section {
+  height: 500px;
+}
+
+.img-info {
+  background: url("../images/photo-1.jpg") no-repeat center center/cover;
+  width: 50%;
+  min-height: 100%;
+  float: left;
+}
+
+.black-bg {
+  background-color: #222;
+  color: #fff;
+}
+
+.primary-bg {
+  background-color: #f7c08a;
+  color: white;
+  opacity: 0.9;
+}
+
+.light-bg {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.hotel-info {
+  text-align: center;
+  min-height: 100%;
+  padding: 30px;
+  width: 50%;
+  float: right;
+  overflow: hidden;
+}
+
+.hotel-info p {
+  margin-bottom: 30px;
+}
+
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+  text-align: center;
+}
+
+.clr {
+  clear: both;
+}
+
+#about-info .container{
+  max-width: 960px;
+  height: 300px;
+}
+
+#about-info .about{
+  float: left;
+  width: 70%;
+  padding: 20px;
+}
+
+#about-info .container .hotel-img{
+  background: url('../images/photo-2.jpg') no-repeat center center/cover;
+  float: right;
+  width: 30%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#testimonials{
+  height: 600px;
+  background: url('../images/test-bg.jpg') no-repeat center center/cover;
+}
+
+#testimonials h1{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+  color: #f4f4f4;
+}
+
+.testimonial{
+  height: 150px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.testimonial img{ 
+  float: left;
+  width: 100px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#contact-form{
+  padding: 10px;
+}
+
+.form-group label{
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px #aaa solid;
+}
+
+.form-group textarea{
+  height: 150px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus{
+  outline: none;
+  border-color: #f7c08a;
+}
+
+#main-footer {
+  text-align: center;
+  background-color: #444;
+  color: #fff;
+  padding: 20px;
+}
